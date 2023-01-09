@@ -1,0 +1,18 @@
+n = 3
+
+multiples = []
+
+
+while True:
+    test_3 = n%3
+    test_5 = n%5
+    
+    if test_3 == 0:
+        multiples.append(n)
+    elif test_5 == 0:
+        multiples.append(n)
+    n = n + 1
+    
+    if n == 1000: 
+        False
+        print(sum(multiples))
